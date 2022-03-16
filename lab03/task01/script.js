@@ -6,9 +6,6 @@ document.querySelector("#btn").addEventListener('click', function (e) {
     b = parseFloat(document.querySelector("#b").value);
     x = parseFloat(document.querySelector("#x").value);
 
-    y = Math.log(Math.E,(a+Math.pow(x,2)))
-    console.log(y)
-
     y = (b * Math.pow(Math.tan(x), 2)) - (a / (Math.pow(Math.sin(x / a)), 2));
     w = (a * (1/ Math.pow(Math.E, Math.sqrt(a))) * Math.cos((b * x) / a)) + Math.abs(y);
 
